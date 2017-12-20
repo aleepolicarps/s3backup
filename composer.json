@@ -1,0 +1,14 @@
+{
+    "name": "responsekings/s3backup",
+    "description": "Module that backups database to Amazon S3 using PHP-SDK",
+    "type": "library",
+    "require": {
+        "aws/aws-sdk-php": "^3.48"
+    },
+    "authors": [
+        {
+            "name": "Alee Policarpio",
+            "email": "ap@responsekings.com"
+        }
+    ]
+}
