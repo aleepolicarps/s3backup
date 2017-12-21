@@ -32,7 +32,7 @@ try{
         ]
     ]);
 
-    $s3_key_name = "{$config['app_name']}/" . date('Y-m-d') . "-{$file_name}";
+    $s3_key_name = "{$config['app_name']}/" . date('Y-m-d-H:i') . "-{$file_name}";
     log_info("Saving to file name {$s3_key_name} ...\n");
     $s3->putObject([
         'Bucket' => $config['s3']['bucket'],
